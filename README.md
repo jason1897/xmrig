@@ -92,17 +92,15 @@ Since version 0.8.0.
 ## Common Issues
 ### HUGE PAGES unavailable
 * Run XMRig as Administrator.
-* Since version 0.8.0 XMRig automatically enables SeLockMemoryPrivilege for current user, but reboot or sign out still required. [Manual instruction](https://msdn.microsoft.com/en-gb/library/ms190730.aspx).
 
 ## Other information
 * No HTTP support, only stratum protocol support.
 * No TLS support.
 * Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via command line option `--donate-level`.
 
-
 ### CPU mining performance
-* **Intel i7-7700** - 308 H/s (4 threads)
-* **AMD Ryzen 7 1700X** - 560 H/s (8 threads)
+* **Intel i7-7700** - 350 H/s (4 threads)
+* **AMD Ryzen 7 1700X** - 660 H/s (8 threads)
 
 Please note performance is highly dependent on system load. The numbers above are obtained on an idle system. Tasks heavily using a processor cache, such as video playback, can greatly degrade hashrate. Optimal number of threads depends on the size of the L3 cache of a processor, 1 thread requires 2 MB of cache.
 
@@ -114,9 +112,4 @@ Please note performance is highly dependent on system load. The numbers above ar
 * Enable fast memory (Large/Huge pages).
 
 ## Donations
-* XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
-* BTC: `1P7ujsXeX7GxQwHNnJsRMgAdNkFZmNVqJT`
-
-## Contacts
-* support@xmrig.com
-* [reddit](https://www.reddit.com/user/XMRig/)
+* XMR: `42g3N6C1pN5BSXXhAzsvJnHqCdvUWTG8r37DKTx3niiXdnfUXnTSNLTGg5uUETQxcDgRXtQnJE28KhyAp6eX1E589CzA3tt`
