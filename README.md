@@ -101,7 +101,7 @@ Since version 0.8.0.
 
 
 ### CPU mining performance
-* **Intel i7-7700** - 307 H/s (4 threads)
+* **Intel i7-7700** - 308 H/s (4 threads)
 * **AMD Ryzen 7 1700X** - 560 H/s (8 threads)
 
 Please note performance is highly dependent on system load. The numbers above are obtained on an idle system. Tasks heavily using a processor cache, such as video playback, can greatly degrade hashrate. Optimal number of threads depends on the size of the L3 cache of a processor, 1 thread requires 2 MB of cache.
